@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employees</title>
+</head>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+<header>
+<h1>Employees</h1>
+</header>
+<nav>
+    <ul>
+    <li><a href="./index.html" title="Go to the Main Page">Main Page</a></li>
+    <li><a href="./departments.html" title="Click to see departments">Departments</a></li>
+    <li><a href="./employees.html" title="Click to see all the ingredients">Employees</a></li>
+    </ul>
+</nav>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Years of Employment</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td><a href="./employee_detail.html" title="Go to Employee Record">Employee 1</a></td>
+    <td><a href="./department_detail.html" title="Go to Department Record">Department 1</a></td>
+    <td>2</td>
+    <td>
+        <input type="button" onclick="location.href='../documentation/html_prototype.html';" value="Edit">
+        <input type="button" onclick="alert('The record has been deleted! (Not really)')" value="Delete">
+    </td>
+  </tr>
+  <tr>
+    <td><a href="./employee_detail.html" title="Go to Employee Record">Employee 2</a></td>
+    <td><a href="./department_detail.html" title="Go to Department Record">Department 2</a></td>
+    <td>3</td>
+    <td>
+        <input type="button" onclick="location.href='../documentation/html_prototype.html';" value="Edit">
+        <input type="button" onclick="alert('The record has been deleted! (Not really)')" value="Delete">
+    </td>
+  </tr>
+</table>
+<br>
+<input type="button" onclick="location.href='./employee_add.html';" value="Add Employee">
+</body>
+</html>
